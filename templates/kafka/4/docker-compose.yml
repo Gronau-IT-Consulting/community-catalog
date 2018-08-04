@@ -1,6 +1,6 @@
 broker:
   tty: true
-  image: rawmind/alpine-kafka:1.0.0-2
+  image: ikuturso/alpine-kafka:jmx
   volumes_from:
     - broker-volume
     - broker-conf
